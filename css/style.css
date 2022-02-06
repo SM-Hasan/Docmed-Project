@@ -1,0 +1,1228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Header Part Style Start: */
+header {
+  max-width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+}
+header .contactsHerder {
+  max-width:100%;
+  height: auto;
+  background: #f5fbff; 
+}
+.contactRow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.socialContacts {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.socialContacts a {
+  text-decoration: none;
+  text-align: center;
+  color: #7777;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.socialContacts a:hover {
+  color: #5db2ff;
+}
+.otherContacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otherContacts a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0 15px;
+  color: #919191;
+  font-weight: 400;
+}
+.otherContacts a i {
+  color: #1d90f8;
+  padding: 10px;
+}
+.navigationHeader {
+  max-width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.navRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 85px;
+  padding-right: 95px;
+}
+
+.logoPart {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoPart a {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+.navRow ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navRow ul li {
+  list-style: none;
+  margin-left: 45px;
+}
+.navRow ul li a {
+  text-decoration: none;
+  line-height: 23px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777;
+}
+.navRow ul li a:hover {
+  color: #1f1f1f;
+}
+.appointmentBtn {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1d90f8;
+  border-radius: 5px;
+}
+.appointmentBtn a {
+  color: #1d90f8;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+.appointmentBtn:hover {
+  transition: all ease-out 0.6s;
+  background-color: #1d90f8;
+}
+.appointmentBtn:hover a {
+  color: #fff;
+}
+.checking{
+  display: none;
+  font-size: 35px;
+  float: right;
+  margin-right: -65px;
+}
+#check{
+  display: none;
+  float: left;
+}
+/* Header Part Style End: */
+/*1st Section Style Start */
+section.section-One {
+  width: 100%;
+  height: auto;
+}
+.slider-1{
+  overflow: hidden;
+  width: 200%;
+  height:auto;
+  position: relative;
+  left: 0;
+  animation: slider1;
+  animation-duration: 7s;
+  animation-timing-function: step-start;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+.slide_One {
+  width: 50%;
+  height: 575px;
+  background: url(../image/xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slider1 9s infinite;
+  float: left;
+}
+.slide_two {
+  width: 50%;
+  height: 575px;
+  background: url(../image/xbanner.png.pagespeed.ic.Q0zxZeYU3F.webp);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slider1 9s infinite;
+  float: left;
+}
+@keyframes slider1 {
+  0% {
+    left: 0;
+
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+
+}
+
+.content_One {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 100px;
+}
+.content_One h1 {
+  font-size: 70px;
+  line-height: 84px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+.content_One h2 {
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 84px;
+  color: #1f1f1f;
+}
+.content_One p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.secviceBtn {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #009dff;
+  border-radius: 5px;
+  border: 1px solid #009dff;
+}
+.secviceBtn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.secviceBtn:hover {
+  transition: all ease-out 0.6s;
+  background-color: #fff;
+}
+.secviceBtn:hover a {
+  color: #1d90f8;
+}
+/* 1st Section Style End */
+/* 2nd Section Style Start */
+section.section-two {
+  width: 100%;
+  height: auto;
+  background: #83c4ff;
+}
+.serviceContacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+.hospitalService-1 {
+  width: 34%;
+  padding: 35px 30px;
+}
+.hospitalService-1 span i {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.hospitalService-1 h1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.hospitalService-1 p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.hospitalService-1 .serviceBtn-1 {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hospitalService-1 .serviceBtn-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.serviceBtn-1:hover {
+  background-color: #fff;
+}
+.serviceBtn-1:hover a {
+  color: #009dff;
+}
+.hospitalService-2 {
+  width: 34%;
+  padding: 35px 30px;
+  background: #5db2ff;
+}
+.hospitalService-2 span i {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.hospitalService-2 h1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.hospitalService-2 p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.hospitalService-2 .serviceBtn-2 {
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hospitalService-2 .serviceBtn-2 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.serviceBtn-2:hover {
+  background-color: #fff;
+}
+.serviceBtn-2:hover a {
+  color: #009dff;
+}
+.hospitalService-3 {
+  width: 34%;
+  padding: 35px 30px;
+}
+.hospitalService-3 span i {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.hospitalService-3 h1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.hospitalService-3 p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.hospitalService-3 .serviceBtn-3 {
+  width: 195px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hospitalService-3 .serviceBtn-3 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.serviceBtn-3:hover {
+  background-color: #fff;
+}
+.serviceBtn-3:hover a {
+  color: #009dff;
+}
+/* 2nd Section Style End */
+/* 3rd Section Style Start */
+section.section-3 {
+  width: 100%;
+  height: auto;
+  padding: 120px 100px;
+  margin-bottom: 75px;
+}
+.imageSection {
+  display: flex;
+}
+.imagePart-1 {
+  position: relative;
+  width: 535px;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+.imagePart-1 .image-1 {
+  width: 58%;
+  left: 0;
+}
+.imagePart-1 .image-1 img{
+  width: 100%;
+  height: 392px;
+}
+.imagePart-1 .image-2 img{
+  width: 100%;
+  height: 392px;
+}
+.imagePart-1 .image-2 {
+  width:58%;
+  position: absolute;
+  left: 225px;
+  top: 75px;
+}
+.content-two {
+  width: 535px;
+  height: 520px;
+}
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 100px;
+}
+.content-two h4 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  color: #1f1f1f;
+  z-index: 9;
+}
+.content-two h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #009dff;
+}
+.content-two h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 9px;
+}
+.content-two p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #727272;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.content-two .listIems {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.content-two .listIems ul {
+  list-style: none;
+}
+.content-two .listIems ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+}
+.content-two .listIems ul li i {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #009dff;
+  color: #009dff;
+  margin-right: 10px;
+  font-size: 12px;
+  padding: 2px;
+}
+.content-two .learnBtn {
+  width: 135px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #009dff;
+}
+.content-two .learnBtn a {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #009dff;
+}
+.content-two .learnBtn:hover {
+  transition: all ease-in-out 0.4s;
+  background-color: #009dff;
+}
+.content-two .learnBtn:hover a {
+  transition: all ease-in-out 0.4s;
+  color: #fff;
+}
+/* 3rd Section Style end */
+/* 4th Section Style Start */
+section.section-four {
+  width: 100%;
+  height: auto;
+  background: #f5fbff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.departmentsHader {
+  width: 443px;
+  height: 275px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.departmentsHader h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+  position: relative;
+  line-height: 48px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.departmentsHader h1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background: #009dff;
+  left: 50%;
+  bottom: -5px;
+  right: 26px;
+  transform: translateX(-50%);
+}
+.departmentsHader p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #272727;
+}
+.departmentsItems {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.departmentBox img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.departmentsItems figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.departmentsItems .departmentBox {
+  width: 362px;
+  height: 430px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 20px rgb(0 0 0 / 10%);
+}
+.departmentBox figure {
+  overflow: hidden;
+}
+.departmentBox .deaprtmentTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+}
+.deaprtmentTitle h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+.deaprtmentTitle p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #727272;
+  margin-bottom: 10px;
+}
+.deaprtmentTitle a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5db2ff;
+}
+/* Hover Effect Start */
+.departmentBox :hover img {
+  transform: scale(1.2);
+}
+.deaprtmentTitle h2:hover {
+  transition: all ease-in-out 0.4s;
+  color: #5db2ff;
+}
+.deaprtmentTitle a:hover {
+  transition: all ease-in-out 0.4s;
+  text-decoration: underline;
+}
+/* Hover Effect End */
+
+.sidePart {
+  margin-top: 85px;
+  overflow: hidden;
+}
+.sidePart .slider-2 {
+  width: 200%;
+  position: relative;
+  left: 0;
+  animation: slider2;
+  animation-duration: 7s;
+  animation-timing-function: step-start;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  
+}
+.imgeDiv1 {
+  position: relative;
+  width: 50%;
+  height: 575px;
+  background: url(../image/oc.png.pagespeed.ic.OIvj3muAHi.webp);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  float: left;
+  z-index: 0;
+  
+
+}
+.imgeDiv1::before{
+  position:absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: -1;
+  opacity: .3;
+}
+.imgeDiv2 {
+  position: relative;
+  width: 50%;
+  height: 575px;
+  background: url(../image/x.webp);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  float: left;
+  z-index: 0;
+
+}
+.imgeDiv2::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: -1;
+  opacity: .3;
+}
+@keyframes slider2 {
+  0% {
+    left: 0;
+
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.imageContent {
+  width: 784px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 135px;
+  margin: 0 auto;
+}
+.imageContent .quote {
+  font-size: 40px;
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.imageContent p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 55px;
+}
+.imageContent span {
+  position: relative;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+.imageContent span::before{
+  position: absolute;
+  content: '';
+  position: absolute;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, 100%);
+}
+/* TabPart style Start */
+
+.mytab {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+}
+.mytab input[type="radio"]{
+display: none;
+}
+.mytab label {
+  width: 275px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1f1f;
+  margin-left: 100px;
+}
+.mytab l:checked{
+  background-color: #fff;
+}
+.mytab .tab {
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  padding:20px;
+  order: 1;
+
+}
+.mytab input[type="radio"]:checked+label{
+  background-color: #fff;
+}
+.mytab input[type="radio"]:checked+label+.tab{
+  display: flex;
+}
+.tab .businessInfo {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 115px;
+}
+.tab .businessInfo .businessIcon {
+  width: 75px;
+  height: 75px;
+  background: #5DB2FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.businessInfo i{
+  font-size: 35px;
+  color: #fff;
+}
+.businessInfo h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+.businessInfo p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #727272;
+}
+.businessInfoImage {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+.businessInfoImage img {
+  width: 540px;
+  height: 319px;
+} 
+/* TabPart style End */
+/* 4th Section Style End */
+/* 5th Section Style Start */
+section.section-five {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+section.section-five .expartDoctor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.expartDoctorHeader {
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.expartDoctorHeader h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+  line-height: 43px;
+}
+.tabBar button {
+  width: 40px;
+  height: 35px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tabBar button i{
+  font-size: 16px;
+}
+/* button Hover Effect start*/
+.tabBar button:hover{
+  transition: all ease-in-out 0.4s;
+  background-color: #009DFF;
+}
+.tabBar button:hover i{
+  transition: all ease-in-out 0.4s;
+  color: #fff;
+}
+/* button Hover Effect End */
+.expartDoctorList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.expartDoctorBox {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.doctorImage {
+  overflow: hidden;
+
+}
+.doctorImage img{
+  width: 255px;
+  height: 241px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.4s;
+}
+.doctorTitle {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #F5FBFF;
+}
+.doctorTitle h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.doctorTitle span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* Doctor list Hover Effect Start */
+.expartDoctorBox:hover img{
+  transition: all ease 0.4s;
+  transform: scale(1.04);
+}
+.expartDoctorBox:hover .doctorTitle{
+  transition: all ease 0.4s;
+  background-color:#009DFF ;
+  color: #fff;
+}
+
+/* Doctor list Hover Effect End */
+.contactSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contactLeftSide {
+  position: relative;
+  width: 50%;
+  height: 235px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url(../image/xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  
+}
+.contactLeftSide::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #5db2dd;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .8;
+}
+.contactLeftSide h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+.contactLeftSide p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+.contactLeftSide .infonBtn {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+}
+.contactLeftSide .infonBtn a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+.contactRightSide {
+  position: relative;
+  width: 50%;
+  height: 235px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url(../image/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.contactRightSide::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #5db2dd;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .8;
+}
+.contactRightSide h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+.contactRightSide p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+.contactRightSide .infonBtn {
+  width: 225px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+}
+.contactRightSide .infonBtn a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+/* button Hover Effect Start */
+.infonBtn:hover{
+  transition: all ease-in-out 0.4s;
+  background-color: #fff;
+}
+.infonBtn:hover a{
+  transition: all ease-in-out 0.4s;
+  color: #009dff;
+}
+/* button Hover Effect End */
+/* 5th Section Style End */
+/* Footer Part Style Start */
+footer.footerSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footercontent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 85px;
+  background-color: #212529;
+}
+/* footer A part Style Start */
+.footerTitlePartA {
+  width: 345px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footerTitlePartA .footerLogo {
+  width: 165px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+/* .footerTitlePartA .footerLogo img {
+  color: #000;
+  filter: brightness(1) invert(1);
+
+} */
+.footerLogo a{
+  color: #1f1f1f;
+  filter: invert(1);
+}
+.footerTitlePartA p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #c7c7c7;
+}
+.footerTitlePartA .footerIcon {
+  width: 180px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.footerIcon ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerIcon ul li {
+  width: 50px;
+  height: 50px;
+  background-color: #707070;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.footerIcon ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #c7c7c7;
+}
+.footerIcon ul li:hover a{
+  transition: all ease 0.4s;
+  color: #fff;
+}
+
+/* footer A part Style End */
+.footerTitlePartB {
+  width: 750px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footerRightPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footerRightPart h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.f-Title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.f-List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-List ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+.f-List ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.f-List ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c7c7c7;
+}
+.f-List ul li:hover a{
+  transition: all ease 0.4s;
+  color: #5db2dd;
+}
+
+.addressDetails {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addressDetails p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #c7c7c7;
+}
+.footerBottom {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+}
+/* Footer Part Style End */
+
